@@ -1,0 +1,126 @@
+//Rules are
+//One node per line
+// Line starting with // are comments, must be ignored
+// Line starting with - or + are actual nodes
+// Line starting with => are redirection to a node
+// If there are multiple redirections in a line, we try the first one and if this node has already been visited, we go to the second, etc.
+// Right after -, + or =>, there is the unique id of the node
+// Right after the id, there is the score given by this node when visited
+//Score AGDE : Anar, Gauche, Droite, Extreme
++1:|:"Bienvenue à tous sur BFMC pour ce débat exceptionnel !"
+	-2:|:"..."
+		+3:|:"Nous sommes réunis ici avec un des candidats que les Rançais vont peut être choisir. Un candidat que notre rédaction tenait absolument à interviewer avant ces prochaine élections présidentielles de notre pays, la Rance."
+			-4:|:"..."
+//<Simon Pavlovsky, président du parti Les Ripoublicains, et >
+				+5:|:"Face à moi, Samuel Polka, candidat désigné du parti des Ripoublicains. Monsieur, bonjour."
+					-6:|:"Bonjour, monsieur Toupadas."
+						+7:|:"Rentrons tout de suite dans le vif du sujet, s'il vous le voulez bien Monsieur Polka. Comment vous définiriez vous comme éventuel futur président ?"
+							-71:*:3,3,-3,-3:|:"Et bien écoutez, monsieur Toupadas, je me définierais comme le candidat du peuple. Je suis avant tout un Rançais et je suis fier de mes racines populaires."
+								+711:|:"Il semblerait toutefois que votre père ait été depuis votre enfance un homme d'affaires plein de succès et vous avez donc sûrement une connaissance avancée du monde du travail."
+									-7111:*:-5,-3,5,3:|:"En effet, l'entreprise de mon père m'a permit d'avoir une approche intelligente des affaires."
+										+71111:|:"Il semblerait également que l'entreprise de votre père vous ait aidé financièrement à échafauder votre campagne."
+											-711111:*:-5,-3,5,3:|:"J'ai en effet financé une partie de cette campagne grâce aux dons de ma famille."
+												+7111111:|:"Que peuvent donc en penser les électeurs à ce moment-là ? Ne pensez vous pas être déconnecté de leurs difficultés quotidiennes ? Du contexte économique qui se fait de plus en plus tendu pour les Rançais ?"
+													-71111111:*:0,0,0,0:|:"Les difficultés économiques ne sont pas une fatalité. Je les comprends très bien mais je sais également comment y remédier. La vision incompréhensible du gouvernement actuelle est à l'exact opposé de ce qu'il faudrait faire. Je connais les solutions pertinentes pour améliorer la situation du pays."
+														+711111111:|:"Monsieur Polka, quelles sont selon vous les solutions idéales pour améliorer la situation économique ?"
+															-7111111111:*:-7,0,7,3:|:"Je pense que notre pays a une trop grande inertie par rapport aux changements qui s'opèrent dans le monde. Nous tenons à garder un système social vieillissant alors que le monde est en train de s'ouvrir et de se libéraliser. Nous devons tout de suite suivre ce mouvement avant que d'autres ne prennent notre place !"
+																+71111111111:|:"Ne pensez-vous pas que, quand vous affirmez cela, il ne s'agisse que d'un vulgaire appel du pied aux multinationales et autres grands établissement privés ?"
+																	-711111111111:*:-7,1,7,-5:|:"Les grands groupes tirent toujours l'économie vers le haut. Pour moi, il est bien évidemment capital de se montrer accueillant face aux locomotives du marché. C'est tout simplement révoltant de voir des groupes comme Totelf, pourtant d'origine rançaise, implanter leur siège social dans des paradis fiscaux comme la République du Botswanga. Il faut parfois savoir abandonner une partie de nos rentrées fiscales pour pouvoir gagner plus que nous le faisons actuellement."
+																		=>731111111=>711111111=>9=>10=>8
+																	-711111111112:*:-3,-1,3,1:|:"Si vous considérez mon affirmation comme vulgaire, laissez moi vous dire que vous n'avez pas compris l'objet de mes propos. Il ne s'agit pas de favoriser une élite d'entrepreneurs ou tout autre partie de notre société. Il s'agit d'éviter que notre pays ne sombre avec l'arrivée de pays émergents qui nous font tant concurrence."
+																		=>731111111=>711111111=>9=>10=>8
+															-7111111112:*:7,0,-3,5:|:"Les dernières décennies ont vu une libéralisation massive de notre économie, ainsi qu'un recul net de nos acquis sociaux. Cela doit cesser ! Si notre pays est devenu ce qu'il est, c'est en affirmant sa puissance et son indépendance, notamment vis à vis des banques centrales et autres établissements privés."
+																+71111111121:|:"Ne pensez-vous pas, en affirmant cela, être déconnecté des réalités économiques actuelles et de l'avancée de la mondialisation ?"
+																	-711111111211:*:5,3,1,7:|:"Je pense surtout que cette avancée de la mondialisation est en fait un recul. Un recul de la souveraineté de notre pays et un recul du contrôle que nous avions sur les établissements bancaires. Je pense que nous devons contourner ou mieux, tout faire pour ralentir ce mouvement insensé."
+																		=>731111111=>711111111=>9=>10=>8
+																	-711111111212:*:5,3,-5,-3:|:"Je ne pense pas. Je pense que nos acquis sociaux doivent toujours être d'actualité et je pense qu'ils sont entièrement compatibles avec la nouvelle donne mondiale. La Rance est un pays riche qui peut financer notre système social si nous effectuons les bonnes dépenses."
+																		=>731111111=>711111111=>9=>10=>8
+																	-711111111213:*:-7,-7,-7,-7:|:"Peut être... Je ne sais pas. En tout cas, je ne crois pas."
+																		=>731111111=>711111111=>9=>10=>8
+													-71111112:*:-7,-5,7,5:|:"Je ne pense pas être déconnecté de la réalité dans la mesure où ma famille ou moi avons rencontré un certain succès. Ce succès, nous en sommes fiers et nous avons beaucoup travaillé pour y accéder. Ceux qui disent l'inverse ne sont pas dans la vérité : ils sont juste jaloux."
+														=>71111111
+											-711112:*:3,5,0,-3:|:"C'est entièrement faux. Ma campagne a été financée par des dons de particuliers et très peu ne proviennent d'organismes privés."
+												=>711111111
+									-7112:*:-3,0,5,3:|:"Je n'ai pas réellement profité du parcours de mon père. Il était souvent absent, travaillant sans relâche. Je me considère comme quelqu'un s'étant fabriqué soi-même."
+										+71121:|:"Il semblerait tout de même que l'entreprise de votre père vous ait aidé à echafauder votre campagne."
+											=>711111
+											=>711112
+							-72:*:-3,3,5,3:|:"Monsieur Toupadas, je suis avant tout un homme de confiance et d'ambition pour le peuple rançais. Les défis majeurs que je saurais reveler en premier seront ceux de la prospérité économique et de la compétitivité."
+								+721:|:"Vos détracteurs vous disent fonctionnaire depuis le début de votre carrière et il semblerait en effet que votre curriculum ne comporte pas un établissement privé dans lequel vous avez travailler. Beaucoup de personnes vous disent déconnecté du monde du travail. Quel est votre position sur ces affirmations ?"
+									-7211:*:0,3,-3,-5:|:"Je dirais que ces personnes n'ont aucune idée de ce que le travail au sein du service public représente. Je suis tout aussi légitime qu'un chef d'entreprise ou un autre fonctionnaire tel qu'un policier ou un pompier en ce qui concerne la connaissance du monde du travail. J'ai travaillé de nombreuses années au sein du Sinistère des Minances, et ce n'est pas rien tout de même !"
+										=>711
+									-7212:*:-3,0,3,3:|:"Être fonctionnaire n'est juste qu'un statut. Ce qui importe, c'est le travail qu'on fait. Rien n'est plus important pour moi que d'accomplir les tâches qui m'incombent. J'ai travaillé de nombreuses années au sein du Sinistère des Minances et je suis convaincu que mon travail a été apprécié là bas."
+										=>711
+							-73:*:-3,0,3,5:|:"Bonsoir Monsieur Toupadas et merci de m'avoir inviter au sein d'une émission de grande écoute, chose qui se fait rare, même si beaucoup de français ont envie d'écouter ce que j'ai à dire. Pour répondre à votre, question, je dirais que je serais le candidat qui défendra nos valeurs et notre identité rançaise."
+								+731:|:"Il semblerait d'ailleurs que vous soyez souvent décrié pour vos positions très arrêtées sur l'immigration et votre "fierté d'être rançais". Qu'avez-vous à répondre à cela ?"
+									-7311:*:-5,-3,0,5:|:"Vous savez, être rançais et l'une de mes plus grandes fiertés. C'est un privilège. Et l'une de mes préoccupations est que ce privilège reste. Si nous accueillons autant d'immigrés que le gouvernement actuel le fait, nous ne pourrons jamais garder ce privilège."
+										+73111:|:"Et que dire donc des accusations de racisme à votre encontre ?"
+											-731111:*:-3,0,3,5:|:"Mes collaborateurs et moi ne sommes pas racistes."
+												+7311111:|:"Samuel Polka, quelle est clairement votre position sur l'immigration ?"
+													-73111111:*:-7,-3,5,7:|:"Je pense que l'immigration doit être cadrée dans le sens où il s'agit d'une contrainte pour notre économie et notre population. Un flux massif d'immigrants n'est jamais bon pour un pays qui connait déjà un chômage important. Et je ne parle pas des problèmes de sécurité."
+														+731111111:|:"Quels sont pour vous les problèmes de sécurité liés à cet afflux récent de migrants dans notre pays ?"
+															-7311111111:*:7,3,-5,-7:|:"Les problèmes de sécurité restent dérisoires en rapport du nombre du migrants. Je pense qu'il est inutile de s'y attarder. Mais certes, ils sont là et doivent être traités, mais ils ne nécessitent pas autant d'agitation au sein de la vie politique."
+																+73111111111:|:"Que dites-vous alors des attentats terroristes, dont certains auteurs ont été prouvés comme s'étant infiltrés parmi les migrants ? Et que dire de la jungle de Calais, qui semblait générer autour d'elle une floraison d'actes criminels ? Je pense notamment aux infiltrations dans des camions de transports, aux routes bloquées et à la criminalité..."
+																	-731111111111:*:-7,1,3,5:|:"Il est vrai que ce sont des actes consternants. Ce genre d'auteurs, même s'ils sont minoritaires doivent être sévèrement punis. J'agirai en ce sens si les Rançais m'élisent en tant que leur président."
+																		-7311111111111:|:"Ne craignez vous pas en agissant ainsi vous attirer les foudres des associations défendant les droits de ces migrants?"
+																			-73111111111111:*:-5,-1,5,7:|:"Si les migrants ont des droits, notamment le droit d'asile, ils ont également des devoirs, comme tout individu dans ce monde. Nous ne sommes pas dans la jungle ou dans un pays sans aucun état de droit."
+																				=>731111111=>711111111=>9=>10=>8
+																			-73111111111112:*:5,3,-3,-5:|:"Je ne pense pas, étant donné que les actions menées envers les migrants se feront toujours en concordance avec ces mêmes associations. C'est pour moi une façon d'agir qui coule de source."
+																				=>731111111=>711111111=>9=>10=>8
+																	-731111111112:*:7,3,-3,-7:|:"C'est en effet un problème récurrent. Mais encore une fois, ces actes ne sont que hautement minoritaires par rapport au nombre de migrants présents illégalement sur le territoire. Des mesures simples pourraient les endiguer rapidement."
+																		=>7311111111111
+															-7311111112:*:-7,-3,5,7:|:"La sécurité est la préoccupation majeure des Rançais concernant l'afflux soudain de migrants. Je prends ce problème très au sérieux et ce sera l'une des tâches sur lesquelles je m'attelerai en priorité en tant que président. Je suis pour un renforcement des contrôles policiers en ce sens."
+																+73111111121:|:"Y compris en instaurant des mesures proches du gouvernement actuel qui, selon certains, sont invasives dans la vie privée des Rançais et qui au final limitent les libertés de nos concitoyens ?"
+																	-731111111211:*:-1,0,1,3:|:"L'état d'urgence instauré n'est en principe là que temporairement. Ce qui ne va pas, c'est la manière dont le gouvernement actuel l'utilise. Il faut limiter son utilisation sur la durée mais aussi aller plus loin sur les mesures imposées."
+																		=>731111111=>711111111=>9=>10=>8
+																	-731111111212:*:7,-3,-1,7:|:"Mille fois non ! Si vous vous référez à l'état d'urgence instauré par le gouvernement actuel, il ne s'agit que d'un outil politique pour mieux contrôler la population et limiter l'expression de son mécontentement. Jamais je n'utiliserai ce genre d'absurdité en tant que président."
+																		=>731111111=>711111111=>9=>10=>8
+													-73111112:*:7,5,-5,-7:|:"Je pense que l'immigration est une bonne manière de renouveler notre économie. L'afflux d'une population jeune au sein de notre pays redonne un nouveau souffle, que ce soit en matière d'économie ou de démoraphie.Je dirais également qu'il est essentiel que notre pays, grand pays des droits de l'Homme, accueille ces populations en détresse."
+														=>731111111
+											-731112:*:-7,-3,3,7:|:"Vous savez, il existe en Rance une omerta sur les conséquences de l'immigration. Quiconque décide de briser le silence se retrouve tout de suite pointé du doigt et insulté de toutes les manières qui soit."
+												=>7311111
+									-7312:*:0,5,3,0:|:"Il y a beaucoup d'erreurs dans les retransciptions de mes propos. Rien n'est plus gratifiant que de savoir que notre pays attire des gens du monde entier. Mon principal soucis est que nos frontières restent ouvertes, tout en se gardant d'attirer les personnes mal intentionnées et de déséquilibrer notre marché du travail."
+										=>7311111
++8:|:"Et bien, Monsieur Polka, je pense que notre échange touche à sa fin. Je suis sûr que vos réponses auront éclairé les Rançais sur votre position dans cette campagne présidentielle."
+	-81:|:"Je vous remercie Monsieur Toupadas de m'avoir inviter."
+		+811:|:"Au revoir Monsieur Polka et à très bientôt !"
+			-8111:|:"Au revoir !"
++9:|:"Monsieur Polka, que pensez-vous des dernières agressions envers les agents du service public ? Je pense notamment aux policiers attaqués aux cocktails molotov et à ce professeur à qui des élèves ont cassé la machoîre."
+	-91:*:-5,1,5,3:|:"C'est incroyable que des fonctionnaires, qui sont donc au service des citoyens, se retrouvent dans de telles situations. Je suis convaincu qu'une réaction ferme et la seule réaction possible face à un tel affront : il s'agit d'éviter que de tels actes se reproduisent. Les auteurs doivent être punis, et sévèrement."
+		+931:|:"Les "zones de non-droit" à l'Est et au Sud de notre capitale, vous y croyez ?"
+			-9311:*:-7,-5,5,7:|:"Bien évidemment, Monsieur Toupadas ! Il existe des zones où la Police ne vient plus, où le service public est devenu inexistant ! Seules les bandes organisées et le trafic de drogue y règnent. C'est assez effroyable pour un pays de notre trempe !"
+				+93111:|:"Samuel Polka, quelles seraient vos solutions pour reprendre le contrôle de ces zones ?"
+					-931111:*:-7,1,7,5:|:"Une meilleure présence policière, bien sûr ! Un rétablissement pur et simple de la Police de proximité, dont la suppression a été une des plus incroyables stupidités des gouvernements précédents !"
+						=>731111111=>711111111=>9=>10=>8
+					-931112:*:-7,-5,3,7:|:"Une meilleure présence policière, bien sûr ! Et de meilleurs moyens de réponse en terme d'effectif et de matériel pour nos policiers. Il est incroyable que nos policiers doivent répondre avec des pistolets à des tirs de kalachnikovs !"
+						=>731111111=>711111111=>9=>10=>8
+			-9312:*:5,7,-3,-7:|:"Je ne pense pas qu'il y ait des zones où, en Rance, seule la loi du Far West prédomine. Il y a des zones qui ont été mis de côté par notre pays, certes. Mais le seul problème au sein de ces zones est un problème de présence de l'État et du service public. Nous devons renforcer cela."
+				+93121:|:"Et comment améliorerez vous cela ?"
+					-931211:*:3,7,-5,-7:|:"Une reforme des établissements scolaires en ZEP et ZUP est déjà une étape primordiale. Il faut de meilleurs établissement et de meilleurs professeurs pour ces zones là. Il faut ensuite apporter la culture aux banlieues en finançant plus de bibliothèques, médiathèques et apporter dans les banlieues le théâtre, la littérature et tout ce qui représente nos valeurs."
+						=>731111111=>711111111=>9=>10=>8
+					-931212:*:-3,7,5,-1:|:"Le rétablissement de la Police de proximité est déjà une bonne étape. Il s'agissait, en plus d'un bon outil d'action, d'un bon outil de prévention en étant au plus proche des citoyens de ces quartiers."
+						=>731111111=>711111111=>9=>10=>8
+	-92:*:5,5,-3,-7:|:"Je pense que ces agressions sont émouvantes mais qu'elles révèlent un mal aise bien plus profond. Je pense aux années de mauvaise gestion de l'éducation et aux laissés pour compte dans les banlieues. Si vous semez l'absence d'éducation et de tissu économique et social dans les quartiers difficiles, vous récoltez les actes que nous avons aujourd'hui."
+		=>931
+	-93:*:-7,-3,5,7:|:"Nous payons tout simplement les pots cassés de trente ans d'incompétence et d'ingérance en matière des sécurité. La situation actuelle n'en est que le résultat : plus aucun respect pour l'État et la loi ! Les auteurs de ces actes méritent l'expulsion du territoire en cas d'origine étrangère."
+		=>931
++10:|:"Pensez-vous, Monsieur Polka, que les problèmes dans les banlieues soient avant tout un problème de religion et de laïcité ?"
+	-101:*:-1,-1,1,1:|:"Oui, je pense qu'il y a un problème de compréhension de la laïcité dans les banlieues."
+		+1011:|:"Qu'entendez-vous par cela ?"
+			-10111:*:-1,5,1,-3:|:"J'entends par là que la laïcité ne signifie pas l'athéisme. Cela signifie la liberté de culte. Et je pense que certains ne comprennent pas cela et qu'en réaction se radicalisent dans leur religion. Et qui dit radicalisation, dit possibilité de glisser dans la criminalité."
+				=>731111111=>711111111=>9=>10=>8
+			-10112:*:-7,-5,5,-7:|:"Et bien notre pays a été avant tout un pays aux racines chrétiennes avant que nous instaurions une séparation des religions et de l'État. Beaucoup de personne, surtout celles originaires de l'étranger, ont du mal à comprendre cela. Ils tentent d'instaurer des valeurs qui ne sont pas les nôtres."
+				=>731111111=>711111111=>9=>10=>8
+	-102:*:3,-3,-3,1:|:"Oui, je pense que la religion est le coeur des problèmes en banlieue."
+		+1021:|:"Qu'entendez-vous par cela ?"
+			-10211:*:7,3,-5,-5:|:"Je pense que placer la religion au centre de sa vie et une erreur et un manque d'ouverture d'esprit. Les plus grands massacres de l'Histoire ont été effectués au nom de la religion. Si notre pays a séparé l'Église et l'État, ce n'est pas pour obscurantisme mais bel et bien l'inverse."
+				=>731111111=>711111111=>9=>10=>8
+			-10212:*:5,1,-5,-7:|:"Et bien... Je ne dis pas que la religion est quelque chose de mauvais en soi, mais que en faire la principale préoccupation de sa vie est une erreur. Si nous voulons vivre tous ensemble, il faut oublier les schémas anciens."
+				=>731111111=>711111111=>9=>10=>8
+	-103:*:-5,-3,5,7:|:"Oui, je pense que certaines religions sont le coeur des problèmes en banlieue."
+		+1031:|:"C'est à dire, Samuel Polka ? De quelles religions en particulier parlez-vous ?"
+			-10311:*:-5,-3,3,7:|:"Vous savez très bien de quelle religion je parle : de celles qui obligent les gens à prier dans la rue à heure fixe ou qui encouragent ses fidèles à tuer les non-croyants !"
+				=>731111111=>711111111=>9=>10=>8
+			-10312:*:7,-1,-3,7:|:"C'est à vous de décider ! N'importe quelle religion est pour moi à proscrire si elle part dans les extrêmes, emprisonne les gens dans des traditions et menace notre société."
+				=>731111111=>711111111=>9=>10=>8
+		
