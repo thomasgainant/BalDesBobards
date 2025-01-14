@@ -1,8 +1,0 @@
-5.4.1f1:2.3.0.0
-WebGL
-D:/gamedev/Unity/Editor/Data/Managed/UnityEngine.dll
-D:/gamedev/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
-D:/gamedev/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
-D:/gamedev/Unity/Editor/Data/Managed/UnityEditor.dll
-D:/gamedev/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll
-D:/gamedev/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll
