@@ -8,7 +8,10 @@ public class Play : MonoBehaviour {
 
     public GameObject ui;
     public UnityEngine.UI.Text questionText;
-    public UnityEngine.UI.Text answerText;
+    public UnityEngine.UI.Image answersContainer;
+    public UnityEngine.UI.Text answer1Text;
+    public UnityEngine.UI.Text answer2Text;
+    public UnityEngine.UI.Text answer3Text;
 
     public List<DialogNode> nodes = new List<DialogNode>();
     public DialogNode currentNode;
@@ -52,6 +55,9 @@ public class Play : MonoBehaviour {
     private bool pressed1 = false;
     private bool pressed2 = false;
     private bool pressed3 = false;
+    private bool hasClicked1 = false;
+    private bool hasClicked2 = false;
+    private bool hasClicked3 = false;
 
     private bool gameStarted = false;
 
@@ -209,16 +215,19 @@ public class Play : MonoBehaviour {
         this.pressed2 = false;
         this.pressed3 = false;
 
-        if(Input.GetKeyDown(KeyCode.Alpha1))
+        if(this.hasClicked1 || Input.GetKeyDown(KeyCode.Alpha1))
         {
+            this.hasClicked1 = false;
             this.pressed1 = true;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (this.hasClicked2 || Input.GetKeyDown(KeyCode.Alpha2))
         {
+            this.hasClicked2 = false;
             this.pressed2 = true;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        if (this.hasClicked3 || Input.GetKeyDown(KeyCode.Alpha3))
         {
+            this.hasClicked3 = false;
             this.pressed3 = true;
         }
 
@@ -227,26 +236,39 @@ public class Play : MonoBehaviour {
             Application.Quit();
         }
 
-        if (!this.updatingText && Input.GetKeyDown(KeyCode.Alpha1) && this.currentNode.answers.Count > 0)
-        {
-            if (this.currentNode.answers[0] != "2" && this.currentNode.answers[0] != "4")
+        if(!this.updatingText && (this.pressed1 || this.pressed2 || this.pressed3)){
+            string selectedAnswer = "";
+
+            if(this.pressed1){
+                selectedAnswer = this.currentNode.answers[0];
+            }
+            else if(this.pressed2){
+                if(this.currentNode.answers.Count > 1)
+                    selectedAnswer = this.currentNode.answers[1];
+                else
+                    selectedAnswer = this.currentNode.answers[0];
+            }
+            else if(this.pressed3){
+                if(this.currentNode.answers.Count > 2)
+                    selectedAnswer = this.currentNode.answers[2];
+                else if(this.currentNode.answers.Count > 1)
+                    selectedAnswer = this.currentNode.answers[1];
+                else
+                    selectedAnswer = this.currentNode.answers[0];
+            }
+
+            GameObject eventSystem = GameObject.Find("EventSystem");
+            eventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(null);
+
+            this.updateConversation(selectedAnswer);
+
+            if (
+                !this.pressed1 || (this.pressed1 && this.currentNode.answers[0] != "2" && this.currentNode.answers[0] != "4")
+            )
             {
                 this.characterAnimation = new SpriteAnimation(this.character, this.talkSprites2, 0, UnityEngine.Random.Range(100, 200));
                 StartCoroutine(this.characterAnimation.update());
             }
-            this.updateConversation(this.currentNode.answers[0]);
-        }
-        else if (!this.updatingText && Input.GetKeyDown(KeyCode.Alpha2) && this.currentNode.answers.Count > 1)
-        {
-            this.updateConversation(this.currentNode.answers[1]);
-            this.characterAnimation = new SpriteAnimation(this.character, this.talkSprites2, 0, UnityEngine.Random.Range(100, 200));
-            StartCoroutine(this.characterAnimation.update());
-        }
-        else if (!this.updatingText && Input.GetKeyDown(KeyCode.Alpha3) && this.currentNode.answers.Count > 2)
-        {
-            this.updateConversation(this.currentNode.answers[2]);
-            this.characterAnimation = new SpriteAnimation(this.character, this.talkSprites2, 0, UnityEngine.Random.Range(100, 200));
-            StartCoroutine(this.characterAnimation.update());
         }
 
         if(this.waitingForInput)
@@ -276,32 +298,79 @@ public class Play : MonoBehaviour {
             );
         }
 
-        if (this.answerText.text == "")
+        if (this.answer1Text.text == "" && this.answer2Text.text == "" && this.answer3Text.text == "")
         {
-            this.answerText.transform.parent.gameObject.GetComponent<UnityEngine.UI.Image>().color = new Color(
-                    this.answerText.transform.parent.gameObject.GetComponent<UnityEngine.UI.Image>().color.r,
-                    this.answerText.transform.parent.gameObject.GetComponent<UnityEngine.UI.Image>().color.g,
-                    this.answerText.transform.parent.gameObject.GetComponent<UnityEngine.UI.Image>().color.b,
+            this.answersContainer.color = new Color(
+                    this.answersContainer.color.r,
+                    this.answersContainer.color.g,
+                    this.answersContainer.color.b,
                     0.0f
             );
         }
         else
         {
-            this.answerText.transform.parent.gameObject.GetComponent<UnityEngine.UI.Image>().color = new Color(
-                    this.answerText.transform.parent.gameObject.GetComponent<UnityEngine.UI.Image>().color.r,
-                    this.answerText.transform.parent.gameObject.GetComponent<UnityEngine.UI.Image>().color.g,
-                    this.answerText.transform.parent.gameObject.GetComponent<UnityEngine.UI.Image>().color.b,
+            this.answersContainer.color = new Color(
+                    this.answersContainer.color.r,
+                    this.answersContainer.color.g,
+                    this.answersContainer.color.b,
                     0.9f
             );
         }
+
+        if (this.answer1Text.text == "")
+            this.answer1Text.transform.parent.gameObject.SetActive(false);
+        else
+            this.answer1Text.transform.parent.gameObject.SetActive(true);
+        
+        if (this.answer2Text.text == "")
+            this.answer2Text.transform.parent.gameObject.SetActive(false);
+        else
+            this.answer2Text.transform.parent.gameObject.SetActive(true);
+        
+        if (this.answer3Text.text == "")
+            this.answer3Text.transform.parent.gameObject.SetActive(false);
+        else
+            this.answer3Text.transform.parent.gameObject.SetActive(true);
+
+        this.answer1Text.text = this.answer1Text.text.TrimEnd();
+        this.answer2Text.text = this.answer2Text.text.TrimEnd();
+        this.answer3Text.text = this.answer3Text.text.TrimEnd();
+    }
+
+    public void clickChoice1(){
+        this.hasClicked1 = true;
+    }
+
+    public void clickChoice2(){
+        this.hasClicked2 = true;
+    }
+
+    public void clickChoice3(){
+        this.hasClicked3 = true;
     }
 
     public void updateConversation(DialogNode node)
     {
-        this.answerText.text = "";
+        this.answer1Text.text = "";
+        this.answer2Text.text = "";
+        this.answer3Text.text = "";
+
         for (int i = 0; i < node.answers.Count; i++)
         {
-            this.answerText.text += (i + 1) + ". " + this.getNodeById(node.answers[i]).content + "\n\n";
+            string nextText = (i + 1) + ". " + this.getNodeById(node.answers[i]).content.TrimEnd() + "\n\n";
+            UnityEngine.UI.Text selectedText = null;
+            
+            if(i == 0){
+                selectedText = this.answer1Text;
+            }
+            else if(i == 1){
+                selectedText = this.answer2Text;
+            }
+            else if(i == 2){
+                selectedText = this.answer3Text;
+            }
+
+            selectedText.text = nextText;
         }
 
         this.questionText.text = node.content;
@@ -328,13 +397,13 @@ public class Play : MonoBehaviour {
             this.currentNode = node;
             this.currentNode.alreadyVisited = true;
 
-            string playerAnswers = "";
+            string[] playerAnswers = new string[3];
             for (int i = 0; i < this.currentNode.answers.Count; i++)
             {
                 DialogNode playerAnswerNode = this.getNodeById(this.currentNode.answers[i]);
                 //Debug.Log("#" + playerAnswerNode.id);
                 if (!playerAnswerNode.alreadyVisited){
-                    playerAnswers += (i + 1) + ". " + playerAnswerNode.content + "\n\n";
+                    playerAnswers[i] = ((i + 1) + ". " + playerAnswerNode.content).TrimEnd();
                     //Debug.Log("is a possible player answer");
                 }
             }
@@ -349,7 +418,7 @@ public class Play : MonoBehaviour {
         }
     }
 
-    private IEnumerator updateTextRoutine(DialogNode chosenAnswer, string questionString, string playerAnswer)
+    private IEnumerator updateTextRoutine(DialogNode chosenAnswer, string questionString, string[] playerAnswers)
     {
         this.updatingText = true;
 
@@ -418,7 +487,9 @@ public class Play : MonoBehaviour {
             }
         }
 
-        this.answerText.text = "";
+        this.answer1Text.text = "";
+        this.answer2Text.text = "";
+        this.answer3Text.text = "";
 
         yield return new WaitForSeconds(2.0f);
 
@@ -442,7 +513,10 @@ public class Play : MonoBehaviour {
             yield return new WaitForEndOfFrame();
         }
 
-        this.answerText.text = playerAnswer;
+        this.answer1Text.text = playerAnswers[0];
+        this.answer2Text.text = playerAnswers[1];
+        this.answer3Text.text = playerAnswers[2];
+
         this.updatingText = false;
     }
 
