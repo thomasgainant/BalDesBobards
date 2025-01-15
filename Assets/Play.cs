@@ -420,6 +420,13 @@ public class Play : MonoBehaviour {
 
     private IEnumerator updateTextRoutine(DialogNode chosenAnswer, string questionString, string[] playerAnswers)
     {
+        /*//Debug.Log("Chosen:");
+        //Debug.Log(chosenAnswer.id);
+        //Debug.Log("Children:");
+        foreach(string answer in chosenAnswer.answers){
+            //Debug.Log(answer);
+        }*/
+
         this.updatingText = true;
 
         int numberOfElectorsConvinced = 0;
@@ -685,7 +692,7 @@ public class Play : MonoBehaviour {
         for(int i = 0; i < rawLines.Length; i++)
         {
             string rawLine = rawLines[i];
-            //Debug.Log("raw: " + rawLine);
+            //Debug.Log("raw "+i+": " + rawLine);
             int numberOfTabs = rawLine.Split('\t').Length - 1;
 
             if (rawLine.Equals(""))
@@ -725,8 +732,8 @@ public class Play : MonoBehaviour {
                     int nextNumberOfTabs = nextLine.Split('\t').Length - 1;
                     //Debug.Log(nextLine);
                     nextLine = nextLine.Replace("\t", "");
-                    /*Debug.Log(j+": "+nextLine);
-                    Debug.Log(numberOfTabs+"/"+nextNumberOfTabs);*/
+                    /*//Debug.Log(j+": "+nextLine);
+                    //Debug.Log(numberOfTabs+"/"+nextNumberOfTabs);*/
 
                     if (nextLine.Equals("") || nextLine.StartsWith("//"))
                     {
@@ -738,6 +745,7 @@ public class Play : MonoBehaviour {
                         {
                             string[] rawRedirectIds = nextLine.Split(new string[] { "=>" }, StringSplitOptions.RemoveEmptyEntries);
                             foreach(string redirectId in rawRedirectIds){
+                                //Debug.Log(id+" => "+redirectId);
                                 rawAnswersIds.Add(redirectId);
                             }
                         }

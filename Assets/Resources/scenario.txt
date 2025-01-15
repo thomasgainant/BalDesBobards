@@ -38,7 +38,7 @@
 																	-711111111213:*:-7,-7,-7,-7:|:"Peut être... Je ne sais pas. En tout cas, je ne crois pas."
 																		=>731111111=>711111111=>9=>10=>8
 													-71111112:*:-7,-5,7,5:|:"Je ne pense pas être déconnecté de la réalité dans la mesure où ma famille ou moi avons rencontré un certain succès. Ce succès, nous en sommes fiers et nous avons beaucoup travaillé pour y accéder. Ceux qui disent l'inverse ne sont pas dans la vérité : ils sont juste jaloux."
-														=>71111111
+														=>711111111
 											-711112:*:3,5,0,-3:|:"C'est entièrement faux. Ma campagne a été financée par des dons de particuliers et très peu ne proviennent d'organismes privés."
 												=>711111111
 									-7112:*:-3,0,5,3:|:"Je n'ai pas réellement profité du parcours de mon père. Il était souvent absent, travaillant sans relâche. Je me considère comme quelqu'un s'étant fabriqué soi-même."
@@ -82,7 +82,7 @@
 									-7312:*:0,5,3,0:|:"Il y a beaucoup d'erreurs dans les retransciptions de mes propos. Rien n'est plus gratifiant que de savoir que notre pays attire des gens du monde entier. Mon principal soucis est que nos frontières restent ouvertes, tout en se gardant d'attirer les personnes mal intentionnées et de déséquilibrer notre marché du travail."
 										=>7311111
 +8:|:"Et bien, Monsieur Polka, je pense que notre échange touche à sa fin. Je suis sûr que vos réponses auront éclairé les Rançais sur votre position dans cette campagne présidentielle."
-	-81:|:"Je vous remercie Monsieur Toupadas de m'avoir inviter."
+	-81:|:"Je vous remercie Monsieur Toupadas de m'avoir invité."
 		+811:|:"Au revoir Monsieur Polka et à très bientôt !"
 			-8111:|:"Au revoir !"
 +9:|:"Monsieur Polka, que pensez-vous des dernières agressions envers les agents du service public ? Je pense notamment aux policiers attaqués aux cocktails molotov et à ce professeur à qui des élèves ont cassé la machoîre."
