@@ -26,17 +26,17 @@
 															-7111111111:*:-7,0,7,3:|:"Je pense que notre pays a une trop grande inertie par rapport aux changements qui s'opèrent dans le monde. Nous tenons à garder un système social vieillissant alors que le monde est en train de s'ouvrir et de se libéraliser. Nous devons tout de suite suivre ce mouvement avant que d'autres ne prennent notre place !"
 																+71111111111:|:"Ne pensez-vous pas que, quand vous affirmez cela, il ne s'agisse que d'un vulgaire appel du pied aux multinationales et autres grands établissement privés ?"
 																	-711111111111:*:-7,1,7,-5:|:"Les grands groupes tirent toujours l'économie vers le haut. Pour moi, il est bien évidemment capital de se montrer accueillant face aux locomotives du marché. C'est tout simplement révoltant de voir des groupes comme Totelf, pourtant d'origine rançaise, implanter leur siège social dans des paradis fiscaux comme la République du Botswanga. Il faut parfois savoir abandonner une partie de nos rentrées fiscales pour pouvoir gagner plus que nous le faisons actuellement."
-																		=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																		=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 																	-711111111112:*:-3,-1,3,1:|:"Si vous considérez mon affirmation comme vulgaire, laissez moi vous dire que vous n'avez pas compris l'objet de mes propos. Il ne s'agit pas de favoriser une élite d'entrepreneurs ou tout autre partie de notre société. Il s'agit d'éviter que notre pays ne sombre avec l'arrivée de pays émergents qui nous font tant concurrence."
-																		=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																		=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 															-7111111112:*:7,0,-3,5:|:"Les dernières décennies ont vu une libéralisation massive de notre économie, ainsi qu'un recul net de nos acquis sociaux. Cela doit cesser ! Si notre pays est devenu ce qu'il est, c'est en affirmant sa puissance et son indépendance, notamment vis à vis des banques centrales et autres établissements privés."
 																+71111111121:|:"Ne pensez-vous pas, en affirmant cela, être déconnecté des réalités économiques actuelles et de l'avancée de la mondialisation ?"
 																	-711111111211:*:5,3,1,7:|:"Je pense surtout que cette avancée de la mondialisation est en fait un recul. Un recul de la souveraineté de notre pays et un recul du contrôle que nous avions sur les établissements bancaires. Je pense que nous devons contourner ou mieux, tout faire pour ralentir ce mouvement insensé."
-																		=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																		=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 																	-711111111212:*:5,3,-5,-3:|:"Je ne pense pas. Je pense que nos acquis sociaux doivent toujours être d'actualité et je pense qu'ils sont entièrement compatibles avec la nouvelle donne mondiale. La Rance est un pays riche qui peut financer notre système social si nous effectuons les bonnes dépenses."
-																		=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																		=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 																	-711111111213:*:-7,-7,-7,-7:|:"Peut être... Je ne sais pas. En tout cas, je ne crois pas."
-																		=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																		=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 													-71111112:*:-7,-5,7,5:|:"Je ne pense pas être déconnecté de la réalité dans la mesure où ma famille ou moi avons rencontré un certain succès. Ce succès, nous en sommes fiers et nous avons beaucoup travaillé pour y accéder. Ceux qui disent l'inverse ne sont pas dans la vérité : ils sont juste jaloux."
 														=>711111111
 											-711112:*:3,5,0,-3:|:"C'est entièrement faux. Ma campagne a été financée par des dons de particuliers et très peu ne proviennent d'organismes privés."
@@ -64,9 +64,9 @@
 																	-731111111111:*:-7,1,3,5:|:"Il est vrai que ce sont des actes consternants. Ce genre d'auteurs, même s'ils sont minoritaires doivent être sévèrement punis. J'agirai en ce sens si les Rançais m'élisent en tant que leur président."
 																		-7311111111111:|:"Ne craignez vous pas en agissant ainsi vous attirer les foudres des associations défendant les droits de ces migrants ?"
 																			-73111111111111:*:-5,-1,5,7:|:"Si les migrants ont des droits, notamment le droit d'asile, ils ont également des devoirs, comme tout individu dans ce monde. Nous ne sommes pas dans la jungle ou dans un pays sans aucun état de droit."
-																				=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																				=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 																			-73111111111112:*:5,3,-3,-5:|:"Je ne pense pas, étant donné que les actions menées envers les migrants se feront toujours en concordance avec ces mêmes associations. C'est pour moi une façon d'agir qui coule de source."
-																				=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																				=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 																	-731111111112:*:7,3,-3,-7:|:"C'est en effet un problème récurrent. Mais encore une fois, ces actes ne sont que hautement minoritaires par rapport au nombre de migrants présents illégalement sur le territoire. Des mesures simples pourraient les endiguer rapidement."
 																		=>7311111111111
 															-7311111112:*:-7,-3,5,7:|:"La sécurité est la préoccupation majeure des Rançais concernant l'afflux soudain de migrants. Je prends ce problème très au sérieux et ce sera l'une des tâches sur lesquelles je m'attelerai en priorité en tant que président. Je suis pour un renforcement des contrôles policiers en ce sens."
@@ -74,9 +74,9 @@
 																	-731111111211:*:-1,0,1,3:|:"L'état d'urgence instauré n'est en principe là que temporairement. Ce qui ne va pas, c'est la manière dont le gouvernement actuel l'utilise. Il faut limiter son utilisation sur la durée mais aussi aller plus loin sur les mesures imposées."
 																		=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 																	-731111111212:*:7,-3,-1,7:|:"Mille fois non ! Si vous vous référez à l'état d'urgence instauré par le gouvernement actuel, il ne s'agit que d'un outil politique pour mieux contrôler la population et limiter l'expression de son mécontentement. Jamais je n'utiliserai ce genre d'absurdité en tant que président."
-																		=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																		=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 													-73111112:*:7,5,-5,-7:|:"Je pense que l'immigration est une bonne manière de renouveler notre économie. L'afflux d'une population jeune au sein de notre pays redonne un nouveau souffle, que ce soit en matière d'économie ou de démoraphie.Je dirais également qu'il est essentiel que notre pays, grand pays des droits de l'Homme, accueille ces populations en détresse."
-														=>731111111=>amisnazis
+														=>731111111
 											-731112:*:-7,-3,3,7:|:"Vous savez, il existe en Rance une omerta sur les conséquences de l'immigration. Quiconque décide de briser le silence se retrouve tout de suite pointé du doigt et insulté de toutes les manières qui soit."
 												=>7311111
 									-7312:*:0,5,3,0:|:"Il y a beaucoup d'erreurs dans les retransciptions de mes propos. Rien n'est plus gratifiant que de savoir que notre pays attire des gens du monde entier. Mon principal soucis est que nos frontières restent ouvertes, tout en se gardant d'attirer les personnes mal intentionnées et de déséquilibrer notre marché du travail."
@@ -91,15 +91,15 @@
 			-9311:*:-7,-5,5,7:|:"Bien évidemment, Monsieur Toupadas ! Il existe des zones où la Police ne vient plus, où le service public est devenu inexistant ! Seules les bandes organisées et le trafic de drogue y règnent. C'est assez effroyable pour un pays de notre trempe !"
 				+93111:|:"Samuel Polka, quelles seraient vos solutions pour reprendre le contrôle de ces zones ?"
 					-931111:*:-7,1,7,5:|:"Une meilleure présence policière, bien sûr ! Un rétablissement pur et simple de la Police de proximité, dont la suppression a été une des plus incroyables stupidités des gouvernements précédents !"
-						=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+						=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 					-931112:*:-7,-5,3,7:|:"Une meilleure présence policière, bien sûr ! Et de meilleurs moyens de réponse en terme d'effectif et de matériel pour nos policiers. Il est incroyable que nos policiers doivent répondre avec des pistolets à des tirs de kalachnikovs !"
-						=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+						=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 			-9312:*:5,7,-3,-7:|:"Je ne pense pas qu'il y ait des zones où, en Rance, seule la loi du Far West prédomine. Il y a des zones qui ont été mis de côté par notre pays, certes. Mais le seul problème au sein de ces zones est un problème de présence de l'État et du service public. Nous devons renforcer cela."
 				+93121:|:"Et comment améliorerez vous cela ?"
 					-931211:*:3,7,-5,-7:|:"Une reforme des établissements scolaires en ZEP et ZUP est déjà une étape primordiale. Il faut de meilleurs établissement et de meilleurs professeurs pour ces zones là. Il faut ensuite apporter la culture aux banlieues en finançant plus de bibliothèques, médiathèques et apporter dans les banlieues le théâtre, la littérature et tout ce qui représente nos valeurs."
-						=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+						=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 					-931212:*:-3,7,5,-1:|:"Le rétablissement de la Police de proximité est déjà une bonne étape. Il s'agissait, en plus d'un bon outil d'action, d'un bon outil de prévention en étant au plus proche des citoyens de ces quartiers."
-						=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+						=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 	-92:*:5,5,-3,-7:|:"Je pense que ces agressions sont émouvantes mais qu'elles révèlent un malaise bien plus profond. Je pense aux années de mauvaise gestion de l'éducation et aux laissés pour compte dans les banlieues. Si vous semez l'absence d'éducation et de tissu économique et social dans les quartiers difficiles, vous récoltez les actes que nous avons aujourd'hui."
 		=>931
 	-93:*:-7,-3,5,7:|:"Nous payons tout simplement les pots cassés de trente ans d'incompétence et d'ingérance en matière des sécurité. La situation actuelle n'en est que le résultat : plus aucun respect pour l'État et la loi ! Les auteurs de ces actes méritent l'expulsion du territoire en cas d'origine étrangère."
@@ -108,30 +108,30 @@
 	-101:*:-1,-1,1,1:|:"Oui, je pense qu'il y a un problème de compréhension de la laïcité dans les banlieues."
 		+1011:|:"Qu'entendez-vous par cela ?"
 			-10111:*:-1,5,1,-3:|:"J'entends par là que la laïcité ne signifie pas l'athéisme. Cela signifie la liberté de culte. Et je pense que certains ne comprennent pas cela et qu'en réaction se radicalisent dans leur religion. Et qui dit radicalisation, dit possibilité de glisser dans la criminalité."
-				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+				=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 			-10112:*:-7,-5,5,-7:|:"Et bien notre pays a été avant tout un pays aux racines chrétiennes avant que nous instaurions une séparation des religions et de l'État. Beaucoup de personne, surtout celles originaires de l'étranger, ont du mal à comprendre cela. Ils tentent d'instaurer des valeurs qui ne sont pas les nôtres."
-				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+				=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 	-102:*:3,-3,-3,1:|:"Oui, je pense que la religion est le coeur des problèmes en banlieue."
 		+1021:|:"Qu'entendez-vous par cela ?"
 			-10211:*:7,3,-5,-5:|:"Je pense que placer la religion au centre de sa vie et une erreur et un manque d'ouverture d'esprit. Les plus grands massacres de l'Histoire ont été effectués au nom de la religion. Si notre pays a séparé l'Église et l'État, ce n'est pas pour obscurantisme mais bel et bien l'inverse."
-				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+				=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 			-10212:*:5,1,-5,-7:|:"Et bien... Je ne dis pas que la religion est quelque chose de mauvais en soi, mais que en faire la principale préoccupation de sa vie est une erreur. Si nous voulons vivre tous ensemble, il faut oublier les schémas anciens."
-				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+				=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 	-103:*:-5,-3,5,7:|:"Oui, je pense que certaines religions sont le coeur des problèmes en banlieue."
 		+1031:|:"C'est à dire, Samuel Polka ? De quelles religions en particulier parlez-vous ?"
 			-10311:*:-5,-3,3,7:|:"Vous savez très bien de quelle religion je parle : de celles qui obligent les gens à prier dans la rue à heure fixe ou qui encouragent ses fidèles à tuer les non-croyants !"
-				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+				=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 			-10312:*:7,-1,-3,7:|:"C'est à vous de décider ! N'importe quelle religion est pour moi à proscrire si elle part dans les extrêmes, emprisonne les gens dans des traditions et menace notre société."
-				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+				=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 +ecolo:|:"Monsieur Polka, j'aimerais maintenant que nous abordions un sujet qui est pour beaucoup de Rançais très important, voire vital: l'écologie. Que pensez-vous des décisions politiques ces dernières décennies qui ont amené à baisser la part du nucléaire dans notre parc énergétique ?"
 	-ecolo-nucl-1:*:-5,3,5,3:|:"Il est très clair que ces décisions politiques étaient le résultat de décennies de propagande écologiste qui n'ont aucune base scientifique. Le nucléaire marche et seulement ceux aveuglés par leur idées toute faites ne veulent pas le voir. Ce fut une catastrophe pour la souveraineté de notre pays."
 		+ecolo-cata:|:"Qu'en est-il des catastrophes naturelles qui semblent de plus en plus régulières et extrêmes de part le monde ? Que proposez-vous pour rassurer nos concitoyens ?"
 			-ecolo-cata-1:*:-3,0,1,3:|:"Pour ces catastrophes qui malheureusement arrivent parfois, les services de l'État sont déjà là pour répondre avec abnégation aux sinistrés, comme par exemple les pompiers ou l'armée. C'est déjà beaucoup et il faut le souligner. Mais la chose pour laquelle je m'engagerai si je viens au pouvoir, c'est évidemment plus de budget pour ces secours."
-				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+				=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 			-ecolo-cata-2:*:-5,-1,3,1:|:"Je propose un fonds souverain qui permettrait aux sinistrés par de telles catastrophes d'être dédommagés en temps record. La fréquence de ces événements n'a en vérité pas vraiment de rapport avec l'écologie. Ces catastrophes naturelles ont toujours existé, ce qui a changé c'est la vitesse à laquelle elles sont médiatisées."
-				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+				=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 			-ecolo-cata-3:*:5,1,0,-5:|:"La seule solution pour éviter ce genre de catastrophes écologiques est d'en supprimer la cause, et cette cause, c'est bien évidemment le dérèglement climatique. Si notre pays fait parti de ceux qui montrent l'exemple et réduisent leurs émissions à effet de serre, cela assurera aux générations futures un meilleur avenir."
-				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+				=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
 	-ecolo-nucl-2:*:5,3,-3,-5:|:"Écoutez, les énergies renouvelables sont l'avenir. Il n'y a pas de débat à avoir là dessus. Le nucléaire est défendu par un lobby puissant qui cherche à cacher la véritable horreur derrière ces centrales : le nucléaire, c'est Tchernobyl, Fukushima et Hiroshima. Je continuerai dans la direction prise et irais même plus loin."
 		=>ecolo-cata
 	-ecolo-nucl-3:*:-5,5,3,-5:|:"D'un point de vue absolument pragmatique, le nucléaire est l'une des sources d'énergie parmi les plus efficaces. Mais les décisions d'alors se sont justifiées par les risques encourus. Il reste à savoir si les Rançais veulent continuer dans cette direction. C'est pour cela que je m'engage à demander un référendum sur le sujet."
@@ -140,31 +140,11 @@
 	-guerre-1:*:-5,-1,3,5:|:"Je n'ai qu'une seule réponse à ce genre de dossiers : le réarmement de notre nation et donner la preuve sur la scène internationale qu'elle est toujours capable de frapper fort sur le plan militaire. C'est le meilleur moyen de garder la paix dans nos frontières."
 		+guerre-belliqueux:|:"Ne pensez-vous pas qu'en nous armant nous aussi, nous ne jouions au final à un jeu dangereux et que nous entretenions ce climat belliqueux ?"
 			-guerre-belliqueux-1:*:-5,0,0,5:|:"Dans ce genre de situation, le choix ne nous ait malheureusement pas donné. Quand il s'agit de survie, il faut se battre coûte que coûte et cela implique de mettre toute l'énergie nécessaire dans ce combat. C'est la situation dans laquelle nous sommes aujourd'hui."
-				=>amisnazis=>10=>ecolo=>guerre=>8
 			-guerre-belliqueux-2:*:-5,3,5,3:|:"Tout à fait, mais ce n'est malheureusement pas un choix que l'on nous a donné. Des pays bien plus puissants nous menacent, voire nous attaquent déjà de manière indirecte. Nous devons nous préparer à des situations bien pires, et cela implique investir plus dans notre défense."
-				=>amisnazis=>10=>ecolo=>guerre=>8
 			-guerre-belliqueux-3:*:3,1,0,-1:|:"C'est vrai, c'est pour quoi je dis que la voie diplomatique devrait toujours être une priorité. Nous pouvons là dessus compter sur le rayonnement toujours puissant de notre pays à l'international d'un point de vue diplomatique. C'est ce que je favorisais si je suis élu."
-				=>amisnazis=>10=>ecolo=>guerre=>8
 	-guerre-2:*:5,-1,-1,5:|:"Si vous parlez de puissances, j'aimerais savoir lesquelles selon vous se réarment. Ma vision de ce qu'il se passe dans le monde est que l'hégémonie occidentale pousse beaucoup de pays à investir dans leurs propres défenses. J'ai toujours été un fervent défenseur du rétablissement de l'équilibre global et de la paix mondiale."
 		+guerre-traitre:|:"L'hégémonie occidentale ? Que voulez-vous signifier par là ?"
 			-guerre-traitre-1:*:7,-1,-1,5:|:"Ceux qu'on appelle les "pays développés", bien évidemment. Ceux qui dictent ce qui est acceptable ou non de part le monde, ceux qui laissent les dictatures politiques, militaires et financières prospérer si elles servent leurs intérêts. Intérêts qu'ils ne peuvent défendre que par les armes et la menace."
-				=>amisnazis=>10=>ecolo=>guerre=>8
 			-guerre-traitre-2:*:5,-1,-1,7:|:"Je veux signifier que jusque là, les pays occidentaux ont échoué à protéger la paix dans le monde. Leur place en tant que gendarmes du monde n'est plus légitime depuis longtemps et je souhaiterais, si je suis élu, tendre la main aux gouvernements dans le monde qui n'entretiennent pas cette hypocrisie."
-				=>amisnazis=>10=>ecolo=>guerre=>8
 	-guerre-3:*:-3,5,3,1:|:"La voie diplomatique doit toujours être une priorité pour résoudre les conflits d'envergure internationale. Mais parfois, la voie diplomatique échoue et c'est dans ce cas là qu'un budget solide pour notre défense se révèle vital pour la survie de notre pays."
 		=>guerre-belliqueux
-+amisnazis:|:"Un sujet, ou plutôt, une polémique vous concernant. Il y a quelque temps, votre accord avec un autre parti, célèbre pour son extremisme, pour l'élaboration d'une loi sur l'immigration a provoqué une levée de boucliers au sein du débat public. Quelles sont vos explications face à l'indignation d'alors ?"
-	-amisnazis3:*:-3,0,1,-5:|:"Il y a eu une très claire erreur stratégique de notre part. Ce que l'on pensait être une manoeuvre de pression sur le gouvernement actuel si incompétent s'est révélée être un faux pas idéologique. Nous espérons que nos électeurs sauront nous pardonner."
-		+amisnazis4:|:"Quand on voit les manifestations qui ont été organisées dans tout le pays, pensez-vous que nos concitoyens ont exagéré dans leurs réactions ?"
-			-amisnazis41:*:3,2,1,-5:|:"Les réactions étaient, je pense, justifiées. Nous avons fait fausse route et la réponse de nos concitoyens a été claire."
-				=>73111=>10=>ecolo=>guerre=>8
-			-amisnazis42:*:-5,-3,-1,5:|:"Les réactions étaient disproportionées. Je pense que les simples projections dans les sondages nous auraient directement permit de voir que nous faisions fausse route."
-				=>73111=>10=>ecolo=>guerre=>8
-	-amisnazis1:*:-5,-3,-1,5:|:"Cette polémique est pour le moins incompréhensible. Nos partenaires ont toujours été issus du processus démocratique, quelles que soient les idées qu'ils défendent. C'est aussi ça la démocratie : laisser parler les gens aux opinions différentes des notres."
-		+amisnazis5:|:"Quand on voit les manifestations qui ont été organisées dans tout le pays, pensez-vous que nos concitoyens ont exagéré dans leurs réactions ?"
-			-amisnazis51:*:-5,-3,-1,5:|:"Absolument. Rien ne justifie un tel flot de haine sur les réseaux sociaux. Notre accord n'était qu'un brouillon, issu de discussions dans un cadre absolument démocratique."
-				=>73111=>10=>ecolo=>guerre=>8
-			-amisnazis52:*:-3,-1,1,-3:|:"Sûrement. Toutefois, il est parfois compréhensible que les gens surréagissent quand on touche à leurs convictions profondes, aussi naïves qu'elles soient."
-				=>73111=>10=>ecolo=>guerre=>8
-	-amisnazis2:*:-5,-1,-1,-3:|:"Il y a eu durant cette polémique une énorme incompréhension concernant notre stratégie. Le texte de loi incriminé n'était qu'un vulgaire brouillon et n'aurait bien évidemment débouché sur aucune mise en oeuvre réelle. Consternant."
-		=>amisnazis5

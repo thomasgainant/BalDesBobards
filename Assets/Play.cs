@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 
 public class Play : MonoBehaviour {
+    public LocalizationManager localizationManager;
 
     public GameObject ui;
     public UnityEngine.UI.Text questionText;
@@ -75,7 +76,19 @@ public class Play : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        this.dialogs = Resources.Load<TextAsset>("scenario");
+        this.localizationManager = GameObject.FindObjectOfType<LocalizationManager>();
+        StartCoroutine(this.init());
+    }
+
+    private IEnumerator init()
+    {
+        yield return null;
+
+        this.gameOverFirstScreen.SetActive(false);
+        this.gameOverFinalScreen.SetActive(false);
+
+        yield return StartCoroutine(this.startCredits());
+        yield return StartCoroutine(this.startTitleScreen());
 
         this.createConversation(this.dialogs.text);
         this.currentNode = this.nodes[0];
@@ -130,7 +143,7 @@ public class Play : MonoBehaviour {
         StartCoroutine(this.startGame());
     }
 
-    private IEnumerator startGame()
+    private IEnumerator startCredits()
     {
         //this.creditsChargeSound = null;
 
@@ -171,7 +184,10 @@ public class Play : MonoBehaviour {
         }
 
         this.creditsScreen.SetActive(false);
+    }
 
+    private IEnumerator startTitleScreen()
+    {
         this.bigTitleScreen.GetComponent<CanvasGroup>().alpha = 1.0f;
         this.playSound(1);
         this.playSound(3);
@@ -182,7 +198,20 @@ public class Play : MonoBehaviour {
             yield return new WaitForEndOfFrame();
         }
 
-        yield return new WaitForSeconds(3.0f);
+        this.gameOverHideScreen.GetComponent<CanvasGroup>().interactable = false;
+        this.gameOverHideScreen.SetActive(false);
+
+        this.bigTitleScreen.GetComponent<CanvasGroup>().interactable = true;
+        float timePassedSelectingLang = 0f;
+        while(this.localizationManager.lang == LocalizationManager.LANG.SELECTING && timePassedSelectingLang <= 5f){
+            timePassedSelectingLang += Time.deltaTime;
+            yield return null;
+        }
+
+        if(this.localizationManager.lang == LocalizationManager.LANG.SELECTING)
+            this.localizationManager.setLangToFR();
+
+        yield return new WaitForSeconds(2.0f);
 
         while (this.bigTitleScreen.GetComponent<CanvasGroup>().alpha > 0.0f)
         {
@@ -190,8 +219,14 @@ public class Play : MonoBehaviour {
             yield return new WaitForEndOfFrame();
         }
 
+        this.bigTitleScreen.GetComponent<CanvasGroup>().interactable = false;
+        this.gameOverHideScreen.GetComponent<CanvasGroup>().interactable = true;
+        this.gameOverHideScreen.SetActive(true);
         this.bigTitleScreen.SetActive(false);
+    }
 
+    private IEnumerator startGame()
+    {
         yield return new WaitForSeconds(1.0f);
 
         foreach(ElectorPanel panel in this.electorsPanels)
@@ -386,6 +421,7 @@ public class Play : MonoBehaviour {
         foreach (string possibleDirectAnswerId in selectedByPlayerNode.answers)
         {
             DialogNode possibleDirectAnswer = this.getNodeById(possibleDirectAnswerId);
+            //Debug.Log(selectedByPlayerNode.id+" => "+possibleDirectAnswer.id+" => "+possibleDirectAnswer.alreadyVisited);
             if(!possibleDirectAnswer.alreadyVisited)
             {
                 node = possibleDirectAnswer;
@@ -455,11 +491,11 @@ public class Play : MonoBehaviour {
             PopPanel pop = popObj.GetComponent<PopPanel>();
             if ((newNumberOfElectorsConvinced - numberOfElectorsConvinced) >= 0)
             {
-                pop.contentText.text = "+" + (newNumberOfElectorsConvinced - numberOfElectorsConvinced) + " électeurs";
+                pop.contentText.text = "+" + (newNumberOfElectorsConvinced - numberOfElectorsConvinced) + " " + this.localizationManager.getLocalizedString("voters");
             }
             else
             {
-                pop.contentText.text = "-" + Mathf.Abs(newNumberOfElectorsConvinced - numberOfElectorsConvinced) + " électeurs";
+                pop.contentText.text = "-" + Mathf.Abs(newNumberOfElectorsConvinced - numberOfElectorsConvinced) + " " + this.localizationManager.getLocalizedString("voters");
             }
 
             if ((newNumberOfElectorsConvinced - numberOfElectorsConvinced) > 0){
@@ -477,20 +513,20 @@ public class Play : MonoBehaviour {
             this.scoreObj.text = newNumberOfElectorsConvinced + " %";
             if(newNumberOfElectorsConvinced > 50)
             {
-                this.commentObj.text = "Majorite absolue";
+                this.commentObj.text = this.localizationManager.getLocalizedString("candidacy_majority");
                 StartCoroutine(this.blinkComment());
             }
             else if (newNumberOfElectorsConvinced >= 25)
             {
-                this.commentObj.text = "Majorite relative";
+                this.commentObj.text = this.localizationManager.getLocalizedString("candidacy_relative");
             }
             else if (newNumberOfElectorsConvinced >= 10)
             {
-                this.commentObj.text = "Candidat minoritaire";
+                this.commentObj.text = this.localizationManager.getLocalizedString("candidacy_minority");
             }
             else
             {
-                this.commentObj.text = "Candidature derisoire";
+                this.commentObj.text = this.localizationManager.getLocalizedString("candidacy_insignificant");
             }
         }
 
@@ -584,19 +620,19 @@ public class Play : MonoBehaviour {
         }
 
         int numberOfElectors = (scoreAnar + scoreGauche + scoreDroite + scoreExtreme);
-        this.scoreCommentTextObj.text = "Vous avez convaincu "+numberOfElectors+" électeurs de voter pour vous.\r\n\r\n";
+        this.scoreCommentTextObj.text = this.localizationManager.getLocalizedString("result_total_convinced_start")+numberOfElectors+this.localizationManager.getLocalizedString("result_total_convinced_end")+"\r\n\r\n";
         if(numberOfElectors > 50){
-            this.scoreCommentTextObj.text += "Vous êtes certain d'être élu aux prochaines élections présidentielles.\r\n\r\n";
+            this.scoreCommentTextObj.text += this.localizationManager.getLocalizedString("result_majority")+"\r\n\r\n";
         }
         else if (numberOfElectors >= 25)
         {
-            this.scoreCommentTextObj.text += "Vous êtes certains de passer le premier tour des prochaines élections présidentielles.\r\n\r\n";
+            this.scoreCommentTextObj.text += this.localizationManager.getLocalizedString("result_relative")+"\r\n\r\n";
         }
         else
         {
-            this.scoreCommentTextObj.text += "Vous êtes certain de ne pas passer le premier tour des prochaines élections présidentielles.\r\n\r\n";
+            this.scoreCommentTextObj.text += this.localizationManager.getLocalizedString("result_insignificant")+"\r\n\r\n";
         }
-        this.scoreCommentTextObj.text += "Parmi ces électeurs se trouvent :";
+        this.scoreCommentTextObj.text += this.localizationManager.getLocalizedString("result_voters_start");
 
         this.scoreDescriptionTextObj.text = "";
 

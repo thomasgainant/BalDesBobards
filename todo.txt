@@ -1,0 +1,4 @@
+Curseur main sur sélection de language et de dialogue
+Meilleur affichage sur écrans mobiles (plein écran ?)
+Dialogues EN
+Meilleurs scores avec hors ligne possible

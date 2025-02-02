@@ -1,0 +1,170 @@
+//Rules are
+//One node per line
+// Line starting with // are comments, must be ignored
+// Line starting with - or + are actual nodes
+// Line starting with => are redirection to a node
+// If there are multiple redirections in a line, we try the first one and if this node has already been visited, we go to the second, etc.
+// Right after -, + or =>, there is the unique id of the node
+// Right after the id, there is the score given by this node when visited
+//Score AGDE : Anar, Gauche, Droite, Extreme
++1:|:"Herzlich willkommen auf BFMC zu dieser außergewöhnlichen Debatte!"
+	-2:|:Weiter...
+		+3:|:"Wir sind hier mit einem der Kandidaten zusammengekommen, den die Pfuschländer vielleicht wählen werden. Ein Kandidat, den unsere Redaktion unbedingt vor den bevorstehenden Wahlen zum Kanzler unseres Landes, Pfuschland, interviewen wollte."
+			-4:|:Weiter...
+//<Simon Pavlovsky, président du parti Les Ripoublicains, et >
+				+5:|:"Mir gegenüber sitzt Christian Eizner, designierter Kandidat der Freie Partei der Sozialistischen Grünen. Herrn, ich grüße Sie."
+					-6:|:"Grüße an Sie, Herr Flussaal."
+						+7:|:"Lassen Sie uns direkt zum Thema kommen, wenn Sie möchten, Herr Eizner. Wie würden Sie sich selbst als möglichen zukünftigen Kanzler bezeichnen?"
+							-71:*:3,3,-3,-3:|:"Nun, sehen Sie, Jens, ich würde mich als den Kandidaten des Volkes bezeichnen. Ich bin zuallererst ein Pfuschländer und stolz auf meine völkischen Wurzeln."
+								+711:|:"Es scheint jedoch, dass Ihr Vater seit Ihrer Kindheit ein erfolgreicher Geschäftsmann war und Sie daher über erweiterte Kenntnisse der Arbeitswelt verfügen."
+									-7111:*:-5,-3,5,3:|:"Tatsächlich hat mir das Unternehmen meines Vaters eine intelligente Einstellung zum Geschäft ermöglicht."
+										+71111:|:"Es scheint auch, dass die Firma Ihres Vaters Sie bei der Planung Ihrer Kampagne finanziell unterstützt hat."
+											-711111:*:-5,-3,5,3:|:"Ich habe tatsächlich einen Teil dieser Kampagne durch die Spenden meiner Familie finanziert."
+												+7111111:|:"Was können die Wähler also zu diesem Zeitpunkt darüber denken? Glauben Sie nicht, dass sie von ihren täglichen Schwierigkeiten abgekoppelt sind? Von der wirtschaftlichen Situation, die für die Pfuschländer immer angespannter wird?"
+													-71111111:*:0,0,0,0:|:"Wirtschaftliche Schwierigkeiten sind kein unabwendbares Schicksal. Ich verstehe sie sehr gut, und ich weiß auch, wie man etwas dagegen tun kann. Die unverständliche Vision der derzeitigen Regierung ist das genaue Gegenteil dessen, was getan werden sollte. Ich kenne die relevanten Lösungen, um die Lage des Landes zu verbessern."
+														+711111111:|:"Herr Eizner, was sind Ihrer Meinung nach die idealen Lösungen zur Verbesserung der Wirtschaftslage?"
+															-7111111111:*:-7,0,7,3:|:"Meiner Meinung nach hat unser Land eine zu große Trägheit gegenüber den Veränderungen, die in der Welt vor sich gehen. Wir wollen unbedingt an einem alternden Sozialsystem festhalten, während die Welt sich öffnet und liberalisiert. Wir müssen sofort mit dieser Bewegung Schritt halten, bevor andere unseren Platz einnehmen!"
+																+71111111111:|:"Glauben Sie nicht, dass es sich bei Ihrer Behauptung nur um einen billigen Aufruf an multinationale Konzerne und andere große private Einrichtungen handelt?"
+																	-711111111111:*:-7,1,7,-5:|:"Große Konzerne ziehen die Wirtschaft immer nach oben. Für mich ist es natürlich von größter Bedeutung, dass wir uns gegenüber den Lokomotiven des Marktes einladend zeigen. Es ist einfach widerlich, dass Konzerne wie Gasral, die aus Pfuschland stammen, ihren Firmensitz in Steuerparadiesen wie der Republik Botswanga haben. Manchmal müssen wir auf einen Teil unserer Steuereinnahmen verzichten, um später mehr verdienen zu können."
+																		=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																	-711111111112:*:-3,-1,3,1:|:"Wenn Sie meine Aussage als billig empfinden, lassen Sie mich Ihnen sagen, dass Sie nicht verstanden haben, worum es mir geht. Es geht nicht darum, eine Elite von Unternehmern zu begünstigen. Es geht darum, zu verhindern, dass unser Land mit der Ankunft von Schwellenländern, die uns so sehr Konkurrenz machen, untergeht."
+																		=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+															-7111111112:*:7,0,-3,5:|:"Die letzten Jahrzehnte haben eine massive Liberalisierung unserer Wirtschaft sowie einen deutlichen Rückgang unserer sozialen Errungenschaften mit sich gebracht. Dies muss aufhören! Unser Land ist zu dem geworden, was es ist, weil es seine Macht und Unabhängigkeit behauptet hat, insbesondere gegenüber den Zentralbanken und anderen privaten Unternehmen."
+																+71111111121:|:"Glauben Sie nicht, dass Sie mit dieser Behauptung von den aktuellen wirtschaftlichen Realitäten und der fortschreitenden Globalisierung entkoppelt sind?"
+																	-711111111211:*:5,3,1,7:|:"Ich denke vor allem, dass dieser Fortschritt der Globalisierung in Wirklichkeit ein Rückschritt ist. Ein Rückschlag für die Souveränität unseres Landes und ein Rückschlag für die Kontrolle, die wir über die Banken hatten. Ich denke, wir müssen diese unsinnige Entwicklung umgehen oder, besser, alles tun, um sie zu verlangsamen."
+																		=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																	-711111111212:*:5,3,-5,-3:|:"Das glaube ich nicht. Ich denke, dass unsere sozialen Errungenschaften immer aktuell sein müssen, und ich denke, dass sie mit der neuen Weltlage voll und ganz vereinbar sind. Pfuschland ist ein reiches Land, das unser Sozialsystem finanzieren kann, wenn wir die richtigen Ausgaben tätigen."
+																		=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																	-711111111213:*:-7,-7,-7,-7:|:"Vielleicht... Ich weiß es nicht. Zumindest glaube ich das nicht."
+																		=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+													-71111112:*:-7,-5,7,5:|:"Ich denke nicht, dass ich realitätsfern bin, da meine Familie und ich erfolgreich sind. Wir sind stolz auf diesen Erfolg und haben viel dafür geleistet. Alle, die das Gegenteil sagen, sind nicht wirklich ehrlich: sie sind nur neidisch."
+														=>711111111
+											-711112:*:3,5,0,-3:|:"Das ist völlig falsch. Meine Kampagne wurde durch Spenden von Privatpersonen finanziert und nur sehr wenige davon stammen von privaten Organisationen."
+												=>711111111
+									-7112:*:-3,0,5,3:|:"Ich habe nicht wirklich vom Lebenslauf meines Vaters profitiert. Er war oft abwesend und arbeitete unermüdlich. Ich sehe mich selbst als jemanden, der sich selbst gemacht hat."
+										+71121:|:"Es scheint aber, dass die Firma Ihres Vaters Ihnen bei der Planung Ihrer Kampagne geholfen hat."
+											=>711111
+											=>711112
+							-72:*:-3,3,5,3:|:"Herr Flussaal, ich bin zuallererst ein Mann des Vertrauens und der Ambitionen für die Menschen in Pfuschland. Die größten Herausforderungen, die ich als erstes offenbaren kann, sind wirtschaftlicher Wohlstand und Wettbewerbsfähigkeit."
+								+721:|:"Ihre Kritiker behaupten, dass Sie seit Beginn Ihrer Karriere Beamter sind, und es scheint tatsächlich so, dass Ihr Lebenslauf keine private Einrichtung enthält, in der Sie gearbeitet haben. Viele Leute behaupten, dass Sie von der Arbeitswelt entfremdet sind. Wie stehen Sie zu diesen Behauptungen?"
+									-7211:*:0,3,-3,-5:|:"Ich würde sagen, dass diese Personen keine Ahnung davon haben, was die Arbeit im Staatsdienst bedeutet. Ich bin genauso legitimiert wie ein Unternehmer oder ein anderer Beamter wie ein Polizist oder ein Feuerwehrmann, wenn es darum geht, die Arbeitswelt zu verstehen. Ich habe viele Jahre im Pfuschministerium der Finanzen gearbeitet, und das ist nicht wenig!"
+										=>711
+									-7212:*:-3,0,3,3:|:"Beamter zu sein ist nur ein Status. Was zählt, ist die Arbeit, die man macht. Nichts ist für mich wichtiger, als die Aufgaben zu erfüllen, die ich zu erfüllen habe. Ich habe viele Jahre im Pfuschministerium der Finanzen gearbeitet und bin überzeugt, dass meine Arbeit dort geschätzt wurde."
+										=>711
+							-73:*:-3,0,3,5:|:"Guten Abend, Herr Flussaal, und vielen Dank, dass Sie mich in eine Sendung mit hoher Zuschauerzahl eingeladen haben... Etwas, das selten vorkommt, auch wenn viele Pfuschländer gerne hören möchten, was ich zu sagen habe. Ich würde sagen, dass ich der Kandidat bin, der unsere Werte und unsere pfuschische Identität verteidigt."
+								+731:|:"Es scheint übrigens, dass Sie oft wegen Ihrer sehr entschiedenen Haltung zur Immigration und Ihres „Stolzes, Pfuschländer zu sein“ verunglimpft werden. Was haben Sie dazu zu sagen?"
+									-7311:*:-5,-3,0,5:|:"Wissen Sie, Pfuschländer zu sein, ist nicht nur einer meiner größten Stolz. Es ist ein Privileg. Und eines meiner Anliegen ist es, dass dieses Privileg erhalten bleibt. Wenn wir so viele Einwanderer aufnehmen, wie es die derzeitige Regierung tut, werden wir dieses Privileg niemals behalten können."
+										+73111:|:"Was ist also mit den Anschuldigungen von Rassismus gegen Sie?"
+											-731111:*:-3,0,3,5:|:"Meine Mitarbeiter und ich sind keine Rassisten."
+												+7311111:|:"Christian Eizner, wie ist Ihre klare Haltung zur Einwanderungspolitik?"
+													-73111111:*:-7,-3,5,7:|:"Ich denke, dass die Immigration eingegrenzt werden muss, weil sie eine Belastung für unsere Wirtschaft und unsere Bevölkerung darstellt. Ein massiver Zustrom von Einwanderern ist niemals gut für ein Land, das bereits eine hohe Arbeitslosigkeit hat. Und damit sind noch nicht einmal die Sicherheitsprobleme erwähnt."
+														+731111111:|:"Welche Sicherheitsprobleme bestehen Ihrer Meinung nach im Bezug auf diese neueste Einnahme von Migranten in unserem Land?"
+															-7311111111:*:7,3,-5,-7:|:"Die Sicherheitsprobleme sind im Vergleich zur Zahl der Migranten gering. Ich denke, es ist unnötig, sich damit zu befassen. Aber sie sind da und müssen angegangen werden, aber sie erfordern nicht so viel politische Aufregung."
+																+73111111111:|:"Was sagen Sie dann zu den Terroranschlägen, bei welchen nachgewiesen wurde, dass einige der Täter unter den Migranten infiltriert waren? Und was ist mit dem „Dschungel von Neubonn“, Vierteln voller illegaler Migranten, die um sich herum eine Blüte an kriminellen Akten zu erzeugen scheinen? Ich denke dabei vor allem an Infiltrationen in Transport-LKWs, blockierte Straßen und Kriminalität..."
+																	-731111111111:*:-7,1,3,5:|:"Es stimmt, dass dies bestürzende Taten sind. Diese Art von Tätern, auch wenn sie in der Minderheit sind, müssen streng bestraft werden. Ich werde dies tun, wenn die Pfuschländer mich zu ihrem Kanzler wählen."
+																		-7311111111111:|:"Befürchten Sie nicht, dass Sie sich damit den Zorn von Organisationen zuziehen, die die Rechte dieser Migranten verteidigen?"
+																			-73111111111111:*:-5,-1,5,7:|:"Migranten haben zwar Rechte, insbesondere das Recht auf Asyl, aber sie haben auch Pflichten, wie jedes andere Mitglied dieser Gesellschaft. Wir befinden uns nicht im Dschungel oder in einem Land ohne irgendwelche Rechtsstaatlichkeit."
+																				=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																			-73111111111112:*:5,3,-3,-5:|:"Ich denke nicht, da die Aktionen in Bezug auf Migranten immer in Übereinstimmung mit diesen Organisationen durchgeführt werden. Für mich ist das einfach eine sehr klare Sache."
+																				=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																	-731111111112:*:7,3,-3,-7:|:"Das ist in der Tat ein dauerhaftes Problem. Aber auch hier gilt, dass diese Taten im Vergleich zur Zahl der Migranten, die sich illegal im Land befinden, nur eine absolute Minderheit darstellen. Mit einfachen Maßnahmen könnten sie schnell eingedämmt werden."
+																		=>7311111111111
+															-7311111112:*:-7,-3,5,7:|:"Die Sicherheit ist die größte Sorge der Pfuschländer bezüglich der abrupten Aufnahme von Migranten. Ich nehme dieses Problem sehr ernst und es wird eine der Aufgaben sein, mit denen ich mich als Kanzler mit Priorität befassen werde. Ich bin dafür, dass die Polizeikontrollen in diesem Sinne verstärkt werden."
+																+73111111121:|:"Auch, wenn sie ähnliche Maßnahmen wie die der aktuellen Regierung einführt, die nach Ansicht vieler in das Privatleben der Pfuschländer eingreifen und letztlich die Freiheiten unserer Mitbürger einschränken?"
+																	-731111111211:*:-1,0,1,3:|:"Der eingeführte Ausnahmezustand ist im Prinzip nur temporär vorhanden. Was nicht in Ordnung ist, ist die Art, wie die derzeitige Regierung ihn einsetzt. Sie muss seine Anwendung auf Dauer begrenzen, aber auch bei den verhängten Maßnahmen weiter gehen."
+																		=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+																	-731111111212:*:7,-3,-1,7:|:"Tausendmal nein! Wenn Sie sich auf den von der derzeitigen Regierung eingeführten Ausnahmezustand beziehen, handelt es sich dabei nur um ein politisches Instrument, um die Bevölkerung besser zu kontrollieren und den Ausdruck ihrer Unzufriedenheit einzuschränken. Als Kanzler würde ich niemals solchen Unsinn verwenden."
+																		=>amisnazis=>731111111=>711111111=>9=>10=>ecolo=>guerre=>8
+													-73111112:*:7,5,-5,-7:|:"Ich denke, dass die Einwanderung eine gute Möglichkeit ist, unsere Wirtschaft zu erneuern. Die Aufnahme einer jungen Bevölkerung in unser Land bringt frischen Wind, sei es in der Wirtschaft oder in der Demoraphie. Ich würde auch sagen, dass es wesentlich ist, dass unser Land, ein großes Land der Menschenrechte, diese Menschen in Not aufnimmt."
+														=>731111111=>amisnazis
+											-731112:*:-7,-3,3,7:|:"Wissen Sie, es gibt in Pfuschland eine Schweigepflicht über die Konsequenzen von Immigration. Jeder, der das Schweigen bricht, wird sofort mit dem Finger auf ihn gezeigt und auf jede erdenkliche Weise beleidigt."
+												=>7311111
+									-7312:*:0,5,3,0:|:"Es gibt viele Fehler in den Wiedergaben meiner Aussagen. Nichts ist erfreulicher, als zu wissen, dass unser Land Menschen aus der ganzen Welt anzieht. Meine Hauptsorge ist, dass unsere Grenzen offen bleiben, während wir uns gleichzeitig schützen, Menschen mit bösen Absichten anzuziehen und unseren Arbeitsmarkt aus dem Gleichgewicht zu bringen."
+										=>7311111
++8:|:"Nun, Herr Eizner, ich denke, unser Austausch nähert sich dem Ende. Ich bin sicher, dass Ihre Antworten die Pfuschländer über Ihre Position in dieser Kanzlerkampagne aufgeklärt haben."
+	-81:|:"Ich danke Ihnen, Jens Flussaal, für die Einladung."
+		+811:|:"Auf Wiedersehen, Herr Eizner, und bis bald!"
+			-8111:|:"Auf Wiedersehen!"
++9:|:"Herr Eizner, was halten Sie von den letzten Angriffen auf Mitarbeiter des öffentlichen Dienstes? Ich denke dabei vor allem an die Polizisten, die mit Molotowcocktails angegriffen wurden, und an den Lehrer, dem Schüler den Kiefer gebrochen haben."
+	-91:*:-5,1,5,3:|:"Es ist unglaublich, dass Beamte, die also im Dienste der Bürger stehen, in solche Situationen gebracht werden. Ich bin überzeugt, dass eine harte Reaktion die einzig mögliche Reaktion auf einen solchen Affront ist: es geht darum, zu verhindern, dass sich solche Taten wiederholen. Die Täter müssen bestraft werden, und zwar hart."
+		+931:|:"Die „rechtsfreien Bezirke“ im Osten und Süden unserer Hauptstadt, die manchmal in Boulevardzeitungen beschrieben wurden - glauben Sie, dass sie existieren?"
+			-9311:*:-7,-5,5,7:|:"Selbstverständlich, Herr Flussaal! Es gibt Gegenden, in denen die Polizei nicht mehr kommt, in denen der öffentliche Dienst nicht mehr existiert! Dort herrschen nur organisierte Banden und der Drogenhandel. Das ist ziemlich erschreckend für ein Land unserer Prägung!"
+				+93111:|:"Christian Eizner, was wären Ihre Lösungen, um die Kontrolle über diese Gebiete zurückzugewinnen?"
+					-931111:*:-7,1,7,5:|:"Eine bessere Anwesenheit von Polizisten, natürlich! Die Abschaffung der Nachbarschaftspolizei war eine der unglaublichsten Dummheiten der vorherigen Regierungen."
+						=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+					-931112:*:-7,-5,3,7:|:"Eine bessere Präsenz der Polizei, natürlich! Und bessere Reaktionsmöglichkeiten in Bezug auf Personal und Ausrüstung für unsere Polizisten. Es ist unglaublich, dass unsere Polizisten mit Pistolen auf Schüsse aus Kalaschnikows reagieren müssen!"
+						=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+			-9312:*:5,7,-3,-7:|:"Ich glaube nicht, dass es Gebiete gibt, wo in Pfuschland nur das Gesetz des Wilden Westens vorherrscht. Es gibt Gebiete, die von unserem Land ins Abseits gedrängt wurden, das stimmt. Aber das einzige Problem innerhalb dieser Gebiete ist ein Problem der Präsenz des Staates und des öffentlichen Dienstes. Wir müssen dies stärken."
+				+93121:|:"Und wie würden Sie das verbessern?"
+					-931211:*:3,7,-5,-7:|:"Eine Reform der Schulen, die zu SSZ, die Sonderschulzonen, erklärt wurden, ist bereits ein wichtiger Schritt. Wir brauchen bessere Schulen und bessere Lehrer für diese Gebiete. Wir müssen Kultur in die Vorstädte bringen, indem wir mehr Bibliotheken und Mediatheken finanzieren und Theater, Literatur und alles, was unsere Werte repräsentiert, in die Vorstädte bringen."
+						=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+					-931212:*:-3,7,5,-1:|:"Die Wiedereinsetzung der Nachbarschaftspolizei ist bereits ein guter Schritt. Sie war nicht nur ein gutes Aktionsmittel, sondern auch ein gutes Präventionsmittel, indem sie den Bürgern dieser Viertel so nahe wie möglich kam."
+						=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+	-92:*:5,5,-3,-7:|:"Ich denke, dass diese Angriffe zwar bewegend sind, aber ein viel tieferes Unwohlsein aufzeigen. Ich denke an die jahrelange Fehlsteuerung im Bildungsbereich und an die Zurückgelassenen in den Vorstädten. Wenn man das Fehlen von Bildung, eines wirtschaftlichen und sozialen Gefüges in diesen Problemvierteln sät, erntet man die Taten, die wir heute haben."
+		=>931
+	-93:*:-7,-3,5,7:|:"Wir zahlen ganz einfach die Zeche für dreißig Jahre Inkompetenz und Einmischung in Sicherheitsfragen. Die heutige Situation ist nur das Ergebnis davon: kein Respekt mehr vor dem Staat und dem Gesetz! Die Täter verdienen die Abschiebung aus dem Land, wenn sie ausländischer Herkunft sind."
+		=>931
++10:|:"Glauben Sie, Herr Eizner, dass die Probleme in einigen problematischen Bezirken in erster Linie ein Problem der Religion und der Säkularität sind?"
+	-101:*:-1,-1,1,1:|:"Ja, ich denke, dass es in den Problemvierteln ein Problem mit dem Verständnis von Säkularität gibt."
+		+1011:|:"Was meinen Sie damit?"
+			-10111:*:-1,5,1,-3:|:"Damit meine ich, dass Säkularität nicht Atheismus bedeutet. Es bedeutet die Freiheit der Religionsausübung. Und ich glaube, dass einige Menschen das nicht verstehen und sich als Reaktion darauf in ihrer Religion radikalisieren. Und wer sich radikalisiert, hat die Möglichkeit, in die Kriminalität abzurutschen."
+				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+			-10112:*:-7,-5,5,-7:|:"Nun, unser Land war in erster Linie ein Land mit christlichen Wurzeln, bevor wir die Trennung von Religion und Staat deutlicher erklärt haben. Viele Menschen, vor allem solche aus dem Ausland, haben Schwierigkeiten, dies zu verstehen. Sie versuchen, Werte einzuführen, die nicht unsere sind."
+				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+	-102:*:3,-3,-3,1:|:"Ja, ich glaube, dass die Religion der Kern der Probleme in den Problemvierteln ist."
+		+1021:|:"Was ist damit gemeint?"
+			-10211:*:7,3,-5,-5:|:"Ich denke, dass es ein Fehler und ein Mangel an Offenheit ist, die Religion in den Mittelpunkt seines Lebens zu stellen. Die größten Massaker der Geschichte wurden im Namen der Religion ausgeführt. Die Trennung von Kirche und Staat in unserem Land erfolgte nicht aufgrund von Obskurantismus, sondern ganz im Gegenteil."
+				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+			-10212:*:5,1,-5,-7:|:"Nun, ... Ich sage nicht, dass Religion an sich etwas Schlechtes ist, aber dass man sie zum Hauptthema seines Lebens macht, ist ein Fehler. Wenn wir alle zusammenleben wollen, müssen wir die alten Muster vergessen."
+				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+	-103:*:-5,-3,5,7:|:"Ja, ich denke, dass bestimmte Religionen der Kern der Probleme in den Problemvierteln sind."
+		+1031:|:"Das heißt, Christian Eizner? Von welchen Religionen sprechen Sie genau?"
+			-10311:*:-5,-3,3,7:|:"Sie wissen genau, von welcher Religion ich spreche: von denen, die die Menschen zwingen, zu festgelegten Zeiten auf der Straße zu beten, oder die ihre Anhänger dazu ermutigen, Ungläubige zu töten!"
+				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+			-10312:*:7,-1,-3,7:|:"Es liegt an Ihnen, zu entscheiden! Jede Religion ist für mich abzulehnen, wenn sie in die Extreme geht, die Menschen in Traditionen gefangen hält und unsere Gesellschaft bedroht."
+				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
++ecolo:|:"Herr Eizner, ich würde gerne mit Ihnen über ein Thema sprechen, das für viele Pfuschländer sehr wichtig, wenn nicht sogar lebenswichtig, ist: Ökologie. Was halten Sie von den politischen Entscheidungen der letzten Jahrzehnte, die zur Senkung des Anteils der Kernenergie an unserem Energiepark geführt haben?"
+	-ecolo-nucl-1:*:-5,3,5,3:|:"Es ist sehr klar, dass diese politischen Entscheidungen das Ergebnis jahrzehntelanger grüner Propaganda waren, die jeder wissenschaftlichen Grundlage entbehrt. Die Atomkraft funktioniert und nur diejenigen, die von ihren vorgefertigten Ideen geblendet sind, wollen das nicht verstehen. Es war eine Katastrophe für die Souveränität unseres Landes."
+		+ecolo-cata:|:"Wie sieht es mit Naturkatastrophen aus, die weltweit immer regelmäßiger und extremer zu werden scheinen? Was schlagen Sie vor, um unsere Bürger zu versichern?"
+			-ecolo-cata-1:*:-3,0,1,3:|:"Bei diesen Katastrophen, die leider manchmal vorkommen, sind die staatlichen Behörden bereits da, um selbstlos auf die Betroffenen zu reagieren, wie zum Beispiel die Feuerwehr oder die Armee. Das ist bereits sehr viel und muss betont werden. Aber die Sache, für die ich mich einsetzen werde, wenn ich an die Regierung komme, ist natürlich mehr Budget für diese Rettungsdienste."
+				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+			-ecolo-cata-2:*:-5,-1,3,1:|:"Ich schlage einen Staatsfonds vor, durch den die Betroffenen solcher Katastrophen in Rekordzeit entschädigt werden können. Die Häufigkeit solcher Ereignisse hat in Wahrheit nicht wirklich etwas mit Ökologie zu tun. Naturkatastrophen gab es schon immer, was sich geändert hat, ist die Geschwindigkeit, mit der sie in den Medien bekannt werden."
+				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+			-ecolo-cata-3:*:5,1,0,-5:|:"Die einzige Möglichkeit, Umweltkatastrophen dieser Art zu verhindern, besteht darin, die Ursache zu beheben, und diese Ursache ist natürlich der Klimawandel. Wenn unser Land zu den Ländern gehört, die mit gutem Beispiel vorangehen und ihre Treibhausgase reduzieren, wird dies den kommenden Generationen eine bessere Zukunft sichern."
+				=>731111111=>amisnazis=>711111111=>9=>10=>ecolo=>guerre=>8
+	-ecolo-nucl-2:*:5,3,-3,-5:|:"Sehen Sie, erneuerbare Energien sind die Zukunft. Darüber gibt es keine Debatte. Die Atomkraft wird von einer starken Lobby verteidigt, die versucht, den wahren Horror hinter diesen Kraftwerken zu verstecken: Atomkraft ist Tschernobyl, Fukushima und Hiroshima. Ich werde in der begonnenen Richtung fortfahren und sogar noch weiter gehen."
+		=>ecolo-cata
+	-ecolo-nucl-3:*:-5,5,3,-5:|:"Aus absolut pragmatischer Sicht ist die Kernenergie eine der effizientesten Energiequellen. Die damaligen Entscheidungen wurden allerdings durch die damit verbundenen Risiken gerechtfertigt. Es bleibt abzuwarten, ob die Pfuschländer diesen Weg weitergehen wollen. Ein Referendum zu diesem Thema wird nötig."
+		=>ecolo-cata
++guerre:|:"Ein anderes Gesprächsthema für Sie, Herr Eizner. Die Welt wird immer gefährlicher. Ob im Nahen Osten oder hier in Europa, mächtige Länder rüsten auf und bedrohen den Weltfrieden. Was ist Ihrer Meinung nach die richtige Strategie für unser Land?"
+	-guerre-1:*:-5,-1,3,5:|:"Ich habe nur eine Antwort auf solche Fälle: die Wiederbewaffnung unserer Nation und den Beweis auf der internationalen Bühne zu erbringen, dass sie immer noch in der Lage ist, militärisch hart zuzuschlagen. Das ist der beste Weg, um den Frieden innerhalb unserer Grenzen zu wahren."
+		+guerre-belliqueux:|:"Glauben Sie nicht, dass wir, wenn wir uns ebenfalls aufrüsten, am Ende ein gefährliches Spiel spielen und dieses kriegerische Klima fördern?"
+			-guerre-belliqueux-1:*:-5,0,0,5:|:"In solchen Situationen hat man leider keine Wahl. Wenn es ums Überleben geht, muss man kämpfen, koste es, was es wolle. Und das bedeutet, dass man alle Energie in diesen Kampf stecken muss. Das ist die Situation, in der wir uns heute befinden."
+				=>amisnazis=>10=>ecolo=>guerre=>8
+			-guerre-belliqueux-2:*:-5,3,5,3:|:"Absolut, aber leider wurde uns keine Wahl gelassen. Wir werden von weitaus mächtigeren Ländern bedroht und sogar schon indirekt angegriffen. Wir müssen uns auf deutlich schlimmere Situationen vorbereiten, und das bedeutet, mehr in unsere Verteidigung zu investieren."
+				=>amisnazis=>10=>ecolo=>guerre=>8
+			-guerre-belliqueux-3:*:3,1,0,-1:|:"Das stimmt, deshalb sage ich, dass der diplomatische Weg immer Vorrang haben sollte. Wir können uns dabei auf die immer noch starke internationale Ausstrahlung unseres Landes in diplomatischer Hinsicht verlassen. Das ist das, was ich im Falle meiner Nominierung fördern würde."
+				=>amisnazis=>10=>ecolo=>guerre=>8
+	-guerre-2:*:5,-1,-1,5:|:"Wenn Sie von Mächten sprechen, würde ich gerne wissen, welche aus Ihrer Sicht aufrüsten. Aus meiner Sicht ist das, was in der Welt passiert, dass die westliche Hegemonie viele Länder zwingt, in ihre eigene Verteidigung zu investieren. Ich war schon immer ein starker Verteidiger der Wiederherstellung des globalen Gleichgewichts und des Weltfriedens."
+		+guerre-traitre:|:"Die westliche Hegemonie? Was meinen Sie damit?"
+			-guerretraitre1:*:7,-1,-1,5:|:"Die sogenannten „entwickelten Länder“, natürlich. Die, die diktieren, was auf der Welt akzeptabel ist und was nicht. Die, die politische, militärische und finanzielle Diktaturen aufblühen lassen, wenn sie ihren Interessen dienen. Diese Interessen können diese Länder nur mit Waffen und Drohungen verteidigen."
+				=>amisnazis=>10=>ecolo=>guerre=>8
+			-guerretraitre2:*:5,-1,-1,7:|:"Ich möchte zum Ausdruck bringen, dass die westlichen Länder bislang beim Schutz des Weltfriedens versagt haben. Ihr Platz als Weltpolizisten ist schon lange nicht mehr legitim und ich möchte, wenn ich nominiert werde, Regierungen auf der ganzen Welt die Hand reichen, die diese Heuchelei nicht fortsetzen wollen."
+				=>amisnazis=>10=>ecolo=>guerre=>8
+	-guerre-3:*:-3,5,3,1:|:"Der diplomatische Weg muss immer Vorrang haben, um Konflikte von internationalem Ausmaß zu lösen. Manchmal scheitert der diplomatische Weg jedoch, und dann zeigt sich, dass ein solides Budget für unsere Verteidigung für das Überleben unseres Landes existenziell wichtig ist."
+		=>guerre-belliqueux
++amisnazis:|:"Ein Thema, oder besser gesagt, eine Kontroverse, die Sie betrifft. Vor einiger Zeit hat Ihre Vereinbarung mit einer anderen bekannten extremistischen Partei, ein Immigrationsgesetz zu entwerfen, in der gesellschaftlichen Debatte große Empörung ausgelöst. Was sind Ihre Erklärungen für die damalige Aufregung?"
+	-amisnazis3:*:-3,0,1,-5:|:"Es gab einen sehr klaren strategischen Fehler unsererseits. Was wir für ein Druckmanöver auf die so inkompetente derzeitige Regierung dachten, hat sich als ideologischer Irrweg dargestellt. Wir hoffen, dass unsere Wähler uns das verzeihen können."
+		+amisnazis4:|:"Wenn man sich die Demonstrationen ansieht, die im ganzen Land stattgefunden haben, glauben Sie, dass unsere Mitbürger in ihren Reaktionen übertrieben haben?"
+			-amisnazis41:*:3,2,1,-5:|:"Die Reaktionen waren meiner Meinung nach gerechtfertigt. Wir haben den falschen Weg beschritten und die Reaktion unserer Mitbürger war eindeutig."
+				=>73111=>10=>ecolo=>guerre=>8
+			-amisnazis42:*:-5,-3,-1,5:|:"Die Reaktionen waren unangemessen. Ich denke, eine einfache Prognose in den Umfragen hätte uns direkt gezeigt, dass wir auf dem falschen Weg waren."
+				=>73111=>10=>ecolo=>guerre=>8
+	-amisnazis1:*:-5,-3,-1,5:|:"Diese Polemik ist zumindest unverständlich. Unsere Partner sind immer aus dem demokratischen Prozess gekommen, unabhängig davon, welche anderen Ideen sie verteidigen. Auch das ist Demokratie: Menschen mit anderen Meinungen zu Wort kommen zu lassen."
+		+amisnazis5:|:"Wenn man sich die Demonstrationen ansieht, die im ganzen Land stattgefunden haben, glauben Sie, dass unsere Mitbürger in ihren Reaktionen übertrieben haben?"
+			-amisnazis51:*:-5,-3,-1,5:|:"Absolut. Es gibt keine Rechtfertigung für eine solche Flut von Hass in den sozialen Netzwerken. Unsere Vereinbarung war nur ein Entwurf, der aus Diskussionen in einem absolut demokratischen Rahmen stammte."
+				=>73111=>10=>ecolo=>guerre=>8
+			-amisnazis52:*:-3,-1,1,-3:|:"Wahrscheinlich. Allerdings ist es manchmal verständlich, dass Menschen überreagieren, wenn man an ihren tiefsten Werten rührt, so naiv sie auch sein mögen."
+				=>73111=>10=>ecolo=>guerre=>8
+	-amisnazis2:*:-5,-1,-1,-3:|:"Während dieser Polemik gab es ein großes Missverständnis bezüglich unserer Strategie. Der inkriminierte Gesetzestext war nur ein einfacher Entwurf und würde natürlich zu keiner wirklichen Umsetzung führen. Bestürzend."
+		=>amisnazis5
